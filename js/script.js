@@ -563,7 +563,7 @@ const produtos = {
     { nome: "Al Hilal Away 25/26 Premium", preco: "R$79.90", img: "img/produtos/al-hilal/awaypremium.jpg" },
     { nome: "Al Hilal Home 25/26 Básica", preco: "R$49.90", img: "img/produtos/al-hilal/homebasica.jpg" },
     { nome: "Al Hilal Away 25/26 Básica", preco: "R$49.90", img: "img/produtos/al-hilal/awaybasica.jpg" },
-    { nome: "Al Hilal Third 25/26 Básica", preco: "R$79.90", img: "img/produtos/al-hilal/thirdpremium.jpg" },
+    { nome: "Al Hilal Third 25/26 Premium", preco: "R$79.90", img: "img/produtos/al-hilal/thirdpremium.jpg" },
     { nome: "Al Hilal Third 25/26 Básica", preco: "R$49.90", img: "img/produtos/al-hilal/thirdbasica.jpg" }
   ],
   
