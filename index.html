@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Manto Drop | Catálogo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="topo">
+  <img src="img/logo.png" alt="Manto Drop">
+  <h1 id="titulo">Escolha o País</h1>
+</header>
+
+<!-- =====================
+     TELA PAÍSES
+===================== -->
+<section class="grid" id="telaPaises">
+
+  <div class="card" onclick="abrirBrasil()">
+    <img src="img/flags/brasil.png">
+    <p>Brasil</p>
+  </div>
+
+  <div class="card" onclick="abrirLigas('Inglaterra')">
+    <img src="img/flags/inglaterra.png">
+    <p>Inglaterra</p>
+  </div>
+
+  <div class="card" onclick="abrirLigas('Espanha')">
+    <img src="img/flags/espanha.png">
+    <p>Espanha</p>
+  </div>
+
+  <div class="card" onclick="abrirLigas('Itália')">
+    <img src="img/flags/italia.png">
+    <p>Itália</p>
+  </div>
+
+  <div class="card" onclick="abrirLigas('Alemanha')">
+    <img src="img/flags/alemanha.png">
+    <p>Alemanha</p>
+  </div>
+
+  <div class="card" onclick="abrirLigas('França')">
+    <img src="img/flags/franca.png">
+    <p>França</p>
+  </div>
+
+  <div class="card" onclick="abrirLigas('Holanda')">
+    <img src="img/flags/holanda.png">
+    <p>Holanda</p>
+  </div>
+
+  <div class="card" onclick="abrirLigas('Portugal')">
+    <img src="img/flags/portugal.png">
+    <p>Portugal</p>
+  </div>
+
+  <div class="card" onclick="abrirLigas('Argentina')">
+    <img src="img/flags/argentina.png">
+    <p>Argentina</p>
+  </div>
+
+  <div class="card" onclick="abrirLigas('México')">
+    <img src="img/flags/mexico.png">
+    <p>México</p>
+  </div>
+
+  <div class="card" onclick="abrirLigas('Estados Unidos')">
+    <img src="img/flags/eua.png">
+    <p>Estados Unidos</p>
+  </div>
+
+  <div class="card" onclick="abrirLigas('Arábia Saudita')">
+    <img src="img/flags/arabia-saudita.png">
+    <p>Arábia Saudita</p>
+  </div>
+
+  <div class="card destaque" onclick="abrirCopa()">
+    <img src="img/flags/fifa.png">
+    <p>Copa do Mundo</p>
+  </div>
+
+</section>
+
+<!-- =====================
+     TELA CATEGORIAS
+===================== -->
+<section class="grid hidden" id="telaCategorias"></section>
+
+<!-- =====================
+     TELA PRODUTOS
+===================== -->
+<section class="produtos hidden" id="telaProdutos">
+  <a class="voltar" onclick="voltar()">← Voltar</a>
+  <h2 id="tituloProdutos"></h2>
+  <div class="grid-produtos" id="listaProdutos"></div>
+</section>
+
+<script src="js/script.js"></script>
+</body>
+</html>
